@@ -1,0 +1,15 @@
+------------------------------------------------------------------------------------------
+-- HIGH LOW
+------------------------------------------------------------------------------------------
+-- Players roll the bet amount and the lowest roll pays the highest roll the difference.
+------------------------------------------------------------------------------------------
+--      Winner: Highest roll.
+--       Loser: Lowest roll.
+--      Payout: Highest roll minus lowest roll.
+------------------------------------------------------------------------------------------
+--     Example: Bet is 10,000g. Players "/roll 2" to play.
+--              Player 1 rolls 2. Player 2 rolls 2. Player 3 rolls 1. Player 4 rolls 1.
+--              Player 1 rolls 2. Player 2 rolls 1. --> Player 1 wins high bracket.
+--              Player 3 rolls 2. Player 4 rolls 1. --> Player 4 loses low bracket.
+--              Player 4 pays Player 1 bet amount.
+------------------------------------------------------------------------------------------

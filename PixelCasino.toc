@@ -1,0 +1,12 @@
+## Interface: 90205
+## Title: Pixel Casino
+## Author: Ayr (Proudmoore-US)
+## Version: v0.1
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## Notes: A customized gambling addon for <Isometric> (Proudmoore-US)
+## SavedVariables: PixelCasino
+
+Libs\Libs.xml
+
+PixelCasino.lua

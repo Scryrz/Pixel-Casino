@@ -1,0 +1,17 @@
+------------------------------------------------------------------------------------------
+-- BIG TWO
+------------------------------------------------------------------------------------------
+-- Players all "/roll 2", and are divided into groups based on their roll. 
+-- High Bracket (2s) rolls until everyone but one player has rolled a 1.
+-- Low Bracket (1s) rolls until everyone but one player has rolled a 2. 
+------------------------------------------------------------------------------------------
+--      Winner: Last player standing in the high (2s) bracket.
+--       Loser: Last player to roll a 1 in the low (1s) bracket.
+--      Payout: Full bet amount.
+------------------------------------------------------------------------------------------
+--     Example: Bet is 10,000g. Players "/roll 2" to play.
+--              Player 1 rolls 2. Player 2 rolls 2. Player 3 rolls 1. Player 4 rolls 1.
+--              Player 1 rolls 2. Player 2 rolls 1. --> Player 1 wins high bracket.
+--              Player 3 rolls 2. Player 4 rolls 1. --> Player 4 loses low bracket.
+--              Player 4 pays Player 1 bet amount.
+------------------------------------------------------------------------------------------

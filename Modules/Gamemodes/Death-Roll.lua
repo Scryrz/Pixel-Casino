@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------
+-- DEATH ROLL
+------------------------------------------------------------------------------------------
+-- Players roll the bet amount. Their roll is their new highest roll, and
+-- they continue to "roll down" until they hit a 1. 
+------------------------------------------------------------------------------------------
+--      Winner: Player with most rolls before reaching 1.
+--       Loser: Player with least rolls before reaching 1.
+--      Payout: Full bet amount.
+------------------------------------------------------------------------------------------
+--     Example: Bet is 10,000g. Players "/roll 10000" to play.
+--              Player 1: "/roll 1000" = 7254
+--                        "/roll 7254" =  523
+--                        "/roll 523"  =    1 
+--              Player 2: "/roll 1000" = 5598
+--                        "/roll 5598" = 2321
+--                        "/roll 2321" =  878
+--                        "/roll 878"  =   22
+--                        "/roll 22"   =    8
+--                        "/roll 8"    =    1
+--              It took Player 1 3 rolls to reach 1. It took Player 2 6 rolls to reach 1.
+--              Player 2 wins and pays Player 1.
+------------------------------------------------------------------------------------------

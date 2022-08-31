@@ -1,0 +1,14 @@
+------------------------------------------------------------------------------------------
+-- BULLSEYE
+------------------------------------------------------------------------------------------
+-- The "bullseye" is the bet amount. Players roll 2x the bet amount. 
+-- The closest to the bullseye wins, the furthest loses.
+------------------------------------------------------------------------------------------
+--      Winner: Player closest to the bullseye.
+--       Loser: Player furthest from the bullseye.
+--      Payout: Full bet amount.
+------------------------------------------------------------------------------------------
+--     Example: Bet ("bullseye") is 10,000g. Players "/roll 20000" to play.
+--              Player 1 rolls 12000. Player 2 rolls 500.
+--              20000 - 12000 = 8000 || 20000 - 500 = 19500 ---> Player 1 wins.
+------------------------------------------------------------------------------------------

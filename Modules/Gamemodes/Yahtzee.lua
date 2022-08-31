@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------------------
+-- YAHTZEE
+------------------------------------------------------------------------------------------
+-- A simplified version of Yahtzee where each number represents a die.
+-- Players roll 99999, and rolls are scored based on Yahtzee terms.
+-- The best "hand" wins.
+------------------------------------------------------------------------------------------
+-- HANDS
+------------------------------------------------------------------------------------------
+--     3 of a Kind (Sum): "3 of the same number."                | Ex: 52515
+--     4 of a Kind (Sum): "4 of the same number."                | Ex: 45444
+--       Full House (25): "Three of one number, two of another." | Ex: 11133
+--   Small Straight (30): "Four sequential dice."                | Ex: 12343
+--   Large Straight (40): "Five sequential dice."                | Ex: 12345
+--          Yahtzee (50): "All five dice the same."              | Ex: 22222
+------------------------------------------------------------------------------------------
+--      Winner: Player with the best hand.
+--       Loser: Player with the worst hand.
+--      Payout: Full bet amount.
+------------------------------------------------------------------------------------------
+--     Example: Bet is 10,000g. Players "/roll 99999" to play.
+--              Player 1 rolls 12558. Player 2 rolls 11115.
+--              Four of a Kind > Two of a Kind. Player 2 wins.
+------------------------------------------------------------------------------------------
